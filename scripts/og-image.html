@@ -1,0 +1,58 @@
+<!doctype html>
+<!-- Source of public/og-image.png (1200×630). Regenerate with:
+     "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless --hide-scrollbars \
+       --allow-file-access-from-files --virtual-time-budget=3000 --window-size=1200,630 \
+       --screenshot=public/og-image.png "file://$PWD/scripts/og-image.html" -->
+<html lang="kk">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../node_modules/@fontsource-variable/noto-serif/index.css">
+<link rel="stylesheet" href="../node_modules/@fontsource-variable/noto-sans/index.css">
+<style>
+  html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; }
+  body {
+    font-family: 'Noto Sans Variable', sans-serif; color: #1f2a33; box-sizing: border-box;
+    background: radial-gradient(700px 300px at 0% 100%, rgb(201 162 39 / .14), transparent 70%), radial-gradient(700px 280px at 100% 0%, rgb(178 58 46 / .09), transparent 70%), #faf7f0;
+    display: grid; grid-template-columns: 1fr 360px; align-items: center; gap: 30px; padding: 56px 64px 70px;
+  }
+  .kicker { font-size: 18px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: #0a6f7b; margin: 0 0 18px; }
+  h1 { font-family: 'Noto Serif Variable', serif; font-weight: 600; font-size: 54px; line-height: 1.12; margin: 0 0 14px; }
+  .other { font-family: 'Noto Serif Variable', serif; font-size: 26px; color: #56616b; margin: 0; line-height: 1.45; }
+  .pair { margin-top: 34px; font-family: 'Noto Serif Variable', serif; font-weight: 600; font-size: 40px; display: flex; align-items: center; gap: 14px; }
+  .kz { color: #7a5d08; } .tr { color: #a3352a; }
+  .m { background: #d6eef0; box-shadow: inset 0 -5px 0 #0e8c9b; border-radius: 4px; padding: 0 3px; }
+  .sep { color: #c4b79c; font-weight: 300; }
+  .arr { width: 34px; height: 34px; stroke: #0e8c9b; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+  svg.em { width: 360px; height: 360px; }
+  .band { position: absolute; left: 0; right: 0; bottom: 0; height: 10px; background: linear-gradient(90deg, #c9a227, #0e8c9b, #b23a2e); }
+</style>
+</head>
+<body>
+  <div>
+    <p class="kicker">Ғылыми зерттеу · Bilimsel araştırma · Исследование</p>
+    <h1>Қазақ–түрік топонимдік параллельдері</h1>
+    <p class="other" lang="tr">Kazak–Türk Toponimik Paralellikleri</p>
+    <p class="other" lang="ru">Казахско-турецкие топонимические параллели</p>
+    <div class="pair">
+      <span class="kz"><span class="m">Ақ</span><span class="sep">|</span><span class="m">көл</span></span>
+      <svg class="arr" viewBox="0 0 16 16"><path d="M1.5 8h13M5 4.5 1.5 8 5 11.5M11 4.5 14.5 8 11 11.5"/></svg>
+      <span class="tr"><span class="m">Ak</span><span class="sep">|</span><span class="m">göl</span></span>
+    </div>
+  </div>
+  <svg class="em" viewBox="-130 -130 260 260" id="em"></svg>
+  <div class="band"></div>
+<script>
+  const r2 = (n) => Math.round(n * 100) / 100;
+  const oct = (R) => { const i = R * 0.7654; return 'M' + Array.from({ length: 16 }, (_, k) => { const a = (k * 22.5 - 90) * Math.PI / 180, r = k % 2 ? i : R; return r2(r * Math.cos(a)) + ' ' + r2(r * Math.sin(a)); }).join(' L') + ' Z'; };
+  const sq = (R) => { const s = R / Math.SQRT2; return `M${-s} ${-s} H${s} V${s} H${-s} Z M0 ${-R} L${R} 0 L0 ${R} L${-R} 0 Z`; };
+  const spokes = Array.from({ length: 36 }, (_, i) => { const a = i * 10 * Math.PI / 180; return `M${r2(98 * Math.cos(a))} ${r2(98 * Math.sin(a))} L${r2(124 * Math.cos(a))} ${r2(124 * Math.sin(a))}`; }).join(' ');
+  const bars = [-30, 0, 30].flatMap((d) => { const h = Math.sqrt(86 * 86 - d * d); return [`M${r2(-h)} ${d} Q0 ${d - 12} ${r2(h)} ${d}`, `M${d} ${r2(-h)} Q${d + 12} 0 ${d} ${r2(h)}`]; }).join(' ');
+  document.getElementById('em').innerHTML = `
+    <g fill="none" stroke="#c9a227" stroke-width="2" stroke-opacity=".55" stroke-linecap="round">
+      <path d="${spokes}"/><circle r="94"/><circle r="86" stroke-opacity=".45"/><path d="${bars}" stroke-opacity=".45"/></g>
+    <circle r="50" fill="#faf7f0" stroke="#0e8c9b" stroke-opacity=".45"/>
+    <g fill="none" stroke="#b23a2e" stroke-width="2" stroke-opacity=".55" stroke-linejoin="round"><path d="${sq(44)}"/><path d="${oct(25)}"/><circle r="13"/></g>
+    <circle r="6" fill="#0e8c9b"/>`;
+</script>
+</body>
+</html>

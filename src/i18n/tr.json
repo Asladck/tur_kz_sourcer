@@ -1,0 +1,389 @@
+{
+  "site": {
+    "title": "Kazak–Türk Toponimik Paralellikleri",
+    "tagline": "Bilimsel araştırmaya etkileşimli ek"
+  },
+  "a11y": {
+    "skip": "Ana içeriğe geç",
+    "language": "Arayüz dili",
+    "mainNav": "Ana gezinme",
+    "mobileNav": "Alt gezinme",
+    "breadcrumb": "Gezinme yolu",
+    "backToTop": "Yukarı",
+    "close": "Kapat"
+  },
+  "nav": {
+    "home": "Ana sayfa",
+    "map": "Harita",
+    "dictionary": "Sözlük",
+    "sounds": "Sesler",
+    "history": "Tarih",
+    "method": "Yöntem",
+    "stats": "İstatistik",
+    "present": "Sunum modu",
+    "search": "Ara",
+    "menu": "Menü"
+  },
+  "search": {
+    "title": "Derlemde ara",
+    "placeholder": "Ad veya bileşen: Akgöl, ақ, kara…",
+    "entries": "Çiftler",
+    "components": "Bileşenler",
+    "componentCount": "{n} çift",
+    "empty": "Sonuç bulunamadı.",
+    "start": "Kazakça veya Türkçe bir ad, bir bileşen (ақ, göl) ya da kayıt numarası yazın.",
+    "hintMove": "seç",
+    "hintOpen": "aç",
+    "hintClose": "kapat"
+  },
+  "common": {
+    "noData": "Veri yok",
+    "inReview": "inceleniyor",
+    "inReviewTitle": "Kayıt henüz doğrulanmadı (verified = false)",
+    "verified": "doğrulandı",
+    "kz": "Kazakistan",
+    "tr": "Türkiye",
+    "print": "Yazdır",
+    "copy": "Kopyala",
+    "copied": "Kopyalandı",
+    "prev": "Önceki",
+    "next": "Sonraki",
+    "pairs": "çift",
+    "showTable": "Tablo olarak",
+    "showChart": "Grafik olarak",
+    "count": "Sayı",
+    "share": "Oran",
+    "more": "Ayrıntılar",
+    "close": "Kapat",
+    "showOnMap": "Haritada göster",
+    "translationPending": "Çeviri hazırlanıyor",
+    "pairsN": "{n} çift"
+  },
+  "link": {
+    "cognate": "Akraba ad",
+    "partial": "Kısmi uyum",
+    "calque": "Anlam kalkı",
+    "shared_loan": "Ortak alıntı",
+    "doubtful": "Şüpheli paralel"
+  },
+  "linkDesc": {
+    "cognate": "İki adın bileşenleri ortak Türkçe köklerden gelir.",
+    "partial": "Bir bileşen ortak, diğer bileşen farklı bir sözcüktür.",
+    "calque": "Adların anlamı aynı, kökleri farklıdır.",
+    "shared_loan": "İki dilde ortak olan bir alıntı sözcüğe (Arapça, Farsça vb.) dayanır.",
+    "doubtful": "Benzerlik tesadüfi olabilir veya henüz kanıtlanmamıştır."
+  },
+  "obj": {
+    "oikonym": "Oykonim",
+    "hydronym": "Hidronim",
+    "oronym": "Oronim",
+    "choronym": "Koronim",
+    "unspecified": "Belirtilmemiş"
+  },
+  "objDesc": {
+    "oikonym": "yerleşim yeri, idari birim adı",
+    "hydronym": "su nesnesi adı",
+    "oronym": "yeryüzü şekli adı",
+    "choronym": "bölge, yöre adı",
+    "unspecified": "nesne türü kaynak malzemede belirtilmemiş"
+  },
+  "field": {
+    "name": "Ad",
+    "type": "Nesne türü",
+    "location": "Konum",
+    "structure": "Yapı",
+    "etymology": "Etimoloji",
+    "coords": "Koordinatlar",
+    "sources": "Kaynaklar",
+    "nameInSource": "Kaynaktaki yazılışı",
+    "linkTypeDraft": "link_type_draft (ön ilişki türü)",
+    "reviewNotes": "review_notes (uzman notu)",
+    "status": "Durum",
+    "linkType": "İlişki türü"
+  },
+  "filters": {
+    "title": "Filtreler",
+    "search": "Ara",
+    "searchPlaceholder": "Ada göre süz: Akgöl, ақкол…",
+    "type": "İlişki türü",
+    "obj": "Nesne türü (KZ veya TR)",
+    "comp": "Ortak bileşen",
+    "reset": "Temizle",
+    "found": "Bulunan: {n}"
+  },
+  "editor": {
+    "banner": "Editör modu: uzman notları gösteriliyor. Bu mod genel kullanıma yönelik değildir.",
+    "exit": "Moddan çık",
+    "draftHint": "Ön öneri — bilimsel danışmanın incelemesini gerektirir.",
+    "segHint": "Biçimbirim ayrıştırması ön çözümlemedir; src/data/morphology.ts dosyasında düzeltilir.",
+    "suggested": "öneri",
+    "suggestedHint": "Derlemden ek örnek — yazarın incelemesine sunulur, genel görünümde gösterilmez.",
+    "reviewCount": "Uzman notu bulunan kayıtlar",
+    "coordTool": "Koordinat girişi (editör)",
+    "coordSteps": "Listeden bir kayıt seçin, KZ veya TR tarafını işaretleyin, ardından haritada yere tıklayın.",
+    "coordTarget": "Seçili kayıt",
+    "coordSide": "Taraf",
+    "coordClick": "Haritaya tıklayın: «{name}» koordinatı kaydedilecek.",
+    "coordPick": "Listeden kayıt seçilmedi.",
+    "coordDrafts": "Girilen koordinatlar: {n}",
+    "coordExport": "JSON dışa aktar",
+    "coordClear": "Taslağı temizle",
+    "coordClearConfirm": "Bu tarayıcıda girilen tüm koordinatlar silinsin mi?",
+    "coordRemove": "Sil",
+    "coordCancel": "Vazgeç",
+    "coordStorage": "Koordinatlar bu tarayıcıda saklanır. Dışa aktarılan dosyayı toponyms_kz_tr.json yerine koyup siteyi yeniden derleyin (npm run build)."
+  },
+  "home": {
+    "authorsLabel": "Yazar(lar)",
+    "authors": "[Yazarın adı soyadı]",
+    "supervisorLabel": "Bilimsel danışman",
+    "supervisor": "[Danışmanın adı soyadı, unvanı]",
+    "institutionLabel": "Kurum",
+    "institution": "[Üniversite / araştırma kurumunun adı]",
+    "abstractTitle": "Özet",
+    "abstract": "Bu etkileşimli uygulama, Kazakistan ve Türkiye'deki {count} yer adı çiftini karşılaştıran iki dilli bir sözlük sunmaktadır. Her çift için adın nesne türü, konumu, yapısı ve etimolojisi verilmekte; adlar arasındaki ilişki beş türe ayrılmaktadır: akraba ad, kısmi uyum, anlam kalkı, ortak alıntı ve şüpheli paralel. Ad bileşenlerinin karşılaştırılması, ortak Türkçe kökleri ve düzenli ses denkliklerini (ж ↔ y, к ↔ g, т ↔ d vb.) görsel olarak ortaya koymaya olanak tanır. Derlem ön niteliktedir: kayıtlar bilimsel danışman tarafından incelenmektedir.",
+    "figuresTitle": "Rakamlarla derlem",
+    "pairsLabel": "yer adı çifti",
+    "cognateLabel": "akraba ad",
+    "verifiedLabel": "doğrulanmış kayıt",
+    "distTitle": "İlişki türlerine göre dağılım",
+    "examplesTitle": "Derlemden örnekler",
+    "ctaMap": "Harita",
+    "ctaDictionary": "Sözlük",
+    "ctaMethod": "Yöntem",
+    "allEntries": "Tüm çiftler",
+    "emblem": "Şañırak içinde Selçuklu yıldızı — iki geleneğin buluşması"
+  },
+  "dict": {
+    "title": "Sözlük",
+    "lead": "Derlemdeki tüm yer adı çiftleri. Arama Kazakça ve Türkçe adlarda yapılır (aksansız da yazılabilir: «akgol», «ақкол»).",
+    "export": "CSV indir ({n})",
+    "exportHint": "Geçerli seçimi CSV dosyası olarak dışa aktar (ayraç: noktalı virgül, UTF-8)",
+    "colId": "No.",
+    "colKz": "Kazakça ad",
+    "colTr": "Türkçe ad",
+    "colObj": "Nesne türü",
+    "colLink": "İlişki türü",
+    "colStatus": "Durum",
+    "sortBy": "Sırala: {col}",
+    "empty": "Filtreye uyan kayıt bulunamadı."
+  },
+  "entry": {
+    "notFound": "{id} numaralı kayıt bulunamadı.",
+    "morph": "Biçimbirim çözümlemesi",
+    "bridge": "Biçimbirim köprüsü",
+    "legendShared": "ortak köklü bileşen",
+    "legendSemantic": "anlamsal denklik",
+    "cite": "Nasıl atıf yapılır",
+    "citeStyle": "APA 7 biçiminde",
+    "citeAuthors": "[Soyadı, A. A.]",
+    "citeTemplate": "{authors} ({year}). {kz} – {tr} (No. {id}). Kazak–Türk toponimik paralellikleri [Etkileşimli sözlük]. {date} tarihinde {url} adresinden erişildi.",
+    "coordsMissing": "Koordinatlar belirlenmedi",
+    "position": "{n} / {total}",
+    "similar": "Benzer çiftler",
+    "similarBy": "ortak bileşen: {c}"
+  },
+  "map": {
+    "title": "Harita",
+    "lead": "Kazakistan'daki noktalar altın, Türkiye'dekiler kırmızı renktedir. Noktanın şekli nesne türünü, yayın rengi ilişki türünü gösterir. Çiftin kısa kartını açmak için bir noktaya veya yaya tıklayın.",
+    "legend": "Açıklamalar",
+    "legendShapes": "Nesne türü",
+    "legendSides": "Nokta rengi",
+    "legendArcs": "Yay: ilişki türü",
+    "shown": "Haritada: {n} çift",
+    "noCoordsTitle": "Koordinatları belirlenmemiş",
+    "noCoordsNotice": "Bu çiftlerin koordinatları henüz belirlenmedi; girildikçe haritada görünecekler.",
+    "missingKz": "KZ koordinatı yok",
+    "missingTr": "TR koordinatı yok",
+    "filter": "Listede ara…",
+    "jump": "Haritayı taşı",
+    "jumpKz": "Kazakistan",
+    "jumpTr": "Türkiye",
+    "jumpAll": "Tümü",
+    "offline": "İnternet bağlantısı yok: altlık olarak sadeleştirilmiş şema gösteriliyor.",
+    "noWebgl": "Bu tarayıcıda WebGL kullanılamıyor, bu nedenle harita gösterilemiyor. Liste ve sözlük çalışmaya devam eder.",
+    "coopTouch": "Haritayı kaydırmak için iki parmağınızı kullanın",
+    "zoomIn": "Yakınlaştır",
+    "zoomOut": "Uzaklaştır",
+    "resetBearing": "Kuzeye çevir",
+    "selectedNoCoords": "Bu çiftin koordinatları henüz belirlenmedi, bu yüzden haritada gösterilmiyor."
+  },
+  "sounds": {
+    "title": "Ses denklikleri",
+    "lead": "Kazakça (Kıpçak grubu) ile Türkiye Türkçesi (Oğuz grubu) yer adları arasındaki düzenli ses denklikleri. Her örnek derlemdeki sözlük maddesine bağlantılıdır.",
+    "colCorr": "Denklik",
+    "colPos": "Konum",
+    "colExamples": "Derlemden örnekler",
+    "inCorpus": "derlemde: {n} çift",
+    "pos": {
+      "initial": "kelime başında",
+      "initialFront": "kelime başında, ince ünlü önünde",
+      "final": "kelime sonunda",
+      "suffix": "ek"
+    }
+  },
+  "history": {
+    "title": "Tarihî bağlam",
+    "lead": "Kazak ve Türk yer adlarının ortak katmanını açıklayan başlıca tarihî dönemler.",
+    "branchCommon": "Ortak dönem",
+    "branchOghuz": "Oğuz kolu — Anadolu",
+    "branchKipchak": "Kıpçak kolu — Bozkır",
+    "branchBoth": "Günümüz",
+    "items": {
+      "common": {
+        "date": "",
+        "title": "Ortak Türkçe dönemi",
+        "text": "[ТЕКСТ АВТОРА]"
+      },
+      "yabgu": {
+        "date": "X. yüzyıl",
+        "title": "Sirderya'nın aşağı havzasında Oğuzlar: Oğuz Yabguluğu",
+        "text": "[ТЕКСТ АВТОРА]"
+      },
+      "seljuk": {
+        "date": "1071",
+        "title": "Selçuklular ve Malazgirt Muharebesi",
+        "text": "[ТЕКСТ АВТОРА]"
+      },
+      "anatolia": {
+        "date": "",
+        "title": "Anadolu'da Oğuz Türkçesi",
+        "text": "[ТЕКСТ АВТОРА]"
+      },
+      "kipchak": {
+        "date": "",
+        "title": "Bozkırda Kıpçak kolu",
+        "text": "[ТЕКСТ АВТОРА]"
+      },
+      "modern": {
+        "date": "",
+        "title": "Günümüz Kazak ve Türk dilleri",
+        "text": "[ТЕКСТ АВТОРА]"
+      }
+    }
+  },
+  "stats": {
+    "title": "İstatistik",
+    "lead": "Tüm göstergeler toponyms_kz_tr.json dosyasından otomatik olarak hesaplanır.",
+    "byLink": "İlişki türlerine göre dağılım",
+    "byObj": "Nesne türlerine göre dağılım",
+    "byObjNote": "Her çiftte Kazakça ve Türkçe adlar ayrı sayılır.",
+    "components": "En sık bileşenler (ilk 15)",
+    "componentsNote": "Biçimbirim çözümlemesine göre hesaplanmıştır; bir bileşen her adda bir kez sayılır.",
+    "completeness": "Verilerin eksiksizliği",
+    "verifiedShare": "Doğrulanmış kayıtların oranı",
+    "withCoords": "Her iki tarafın koordinatı var",
+    "withSources": "Kaynak belirtilmiş",
+    "verified": "Doğrulanmış (verified = true)",
+    "of": "{n} / {total}"
+  },
+  "method": {
+    "title": "Yöntem",
+    "lead": "Sözlük maddesinin yapısı, ilişki türlerinin sınıflandırması ve verilerin doğrulanma usulü.",
+    "tabMethod": "Yöntem",
+    "tabStats": "İstatistik",
+    "paramsTitle": "Sözlük maddesinin parametreleri",
+    "paramsField": "Alan",
+    "paramsDesc": "Açıklama",
+    "params": {
+      "name": "Yer adının resmî veya kaynaktaki yazılışı.",
+      "type": "Nesne türü: oykonim, hidronim, oronim, koronim.",
+      "location": "Nesnenin konumu (idari birim, coğrafi tanım).",
+      "structure": "Yapı türü: basit, türemiş, birleşik ad.",
+      "etymology": "Adın anlamı ve kökeni; sözlük ve araştırmalardan alınan açıklamalar.",
+      "etymologyRu": "Etimolojinin Rusça çevirisi (isteğe bağlı; boşsa Kazakça metin gösterilir).",
+      "coords": "Coğrafi koordinatlar (lat / lon, WGS 84, ondalık derece).",
+      "nameInSource": "Türkçe adın kaynak malzemedeki yazılışı (farklıysa).",
+      "linkType": "Çift arasındaki ilişki türü (link_type_draft — ön belirleme).",
+      "reviewNotes": "Uzman notları (yalnızca editör modunda gösterilir).",
+      "verified": "Doğrulama durumu: true — kayıt doğrulandı, false — inceleniyor.",
+      "sources": "Kayda ilişkin kaynakların listesi."
+    },
+    "linkTitle": "İlişki türlerinin sınıflandırması",
+    "linkSourceDef": "Kaynaktaki tanım",
+    "objTitle": "Nesne türleri",
+    "objNote": "Kaynak verideki «топоним (түрі нақтыланады)» gibi işaretler «Belirtilmemiş» kategorisine alınır; madde sayfasında özgün kayıt değiştirilmeden gösterilir.",
+    "morphTitle": "Biçimbirim çözümlemesi ve ortak bileşenler",
+    "morphText": "Sözlük maddesinde adlar bileşenlerine ayrılarak gösterilir. Turkuaz renkle doldurulmuş bileşenler ortak köke aittir (ör. Ақ|көл ↔ Ak|göl); turkuaz kesik çizgiyle işaretlenenler yalnızca anlamca denk bileşenlerdir (ör. Ащы|бұлақ ↔ Acı|pınar). «Ortak bileşen» filtresi ve bileşen sıklığı bu çözümlemeye göre hesaplanır. Ayrıştırma ön niteliktedir ve bilimsel danışmanın incelemesini gerektirir.",
+    "verifyTitle": "Doğrulama ölçütleri",
+    "verifyLead": "Bir kayıt ancak aşağıdaki koşulların tümü sağlandığında doğrulanmış (verified = true) olarak işaretlenir:",
+    "verify": [
+      "Her iki yer adının varlığı ve yazılışı resmî idari veya kartografik kaynaklarla teyit edilmiştir.",
+      "Nesne türü ve konumu netleştirilmiş, koordinatları (lat / lon) girilmiştir.",
+      "Etimolojik açıklama en az bir bilimsel kaynağa dayanır (sources alanı doludur).",
+      "İlişki türü bilimsel danışmanla kararlaştırılmış, uzman notları (review_notes) çözülmüştür."
+    ],
+    "verifyStatus": "Mevcut durum: {n} / {total} kayıt doğrulandı.",
+    "corpusTitle": "Derlem hakkında",
+    "corpusName": "Derlemin adı",
+    "corpusEntries": "Kayıt sayısı",
+    "corpusGaps": "Özgün numaralandırmadaki boşluklar",
+    "corpusNote": "Not",
+    "sourcesTitle": "Kaynaklar",
+    "sourcesFromMeta": "Derlem üst verilerindeki ve kayıtlardaki kaynaklar",
+    "sourcesNone": "Üst verilerde ve kayıtların sources alanlarında kaynak belirtilmemiştir.",
+    "markersTitle": "Metin içi kaynak işaretleri",
+    "markersLead": "Metin alanlarında geçen [n] biçimindeki atıflar. Bunların tam kaynakçayla eşleştirilmesi gerekir.",
+    "markerCol": "İşaret",
+    "markerWhere": "Geçtiği yer",
+    "bibTitle": "Tam kaynakça",
+    "bibPlaceholder": "[TAM KAYNAKÇA — yazar tarafından doldurulacak]"
+  },
+  "present": {
+    "exit": "Çıkış (Esc)",
+    "fullscreen": "Tam ekran (F)",
+    "hint": "← → — slaytlar, F — tam ekran, Esc — çıkış",
+    "slide": "Slayt {n} / {total}"
+  },
+  "notFound": {
+    "title": "Sayfa bulunamadı",
+    "text": "İstenen sayfa mevcut değil veya taşınmış.",
+    "home": "Ana sayfaya dön"
+  },
+  "footer": {
+    "data": "Veri: toponyms_kz_tr.json — {count} çift. Tüm kayıtlar bilimsel inceleme aşamasındadır.",
+    "rights": "[Yazar], [Kurum]"
+  },
+  "meta": {
+    "home": {
+      "title": "",
+      "description": "Kazak ve Türk yer adlarının akrabalığı üzerine bilimsel araştırmaya etkileşimli ek: {count} yer adı çifti, harita, sözlük, ses denklikleri."
+    },
+    "map": {
+      "title": "Harita",
+      "description": "Kazakistan ve Türkiye'deki yer adı çiftlerinin haritası: nesne türleri ve ilişki türleri."
+    },
+    "dictionary": {
+      "title": "Sözlük",
+      "description": "Kazak–Türk toponimik paralellikleri sözlüğü: arama, filtreler, CSV dışa aktarma."
+    },
+    "sounds": {
+      "title": "Ses denklikleri",
+      "description": "Kazak ve Türk yer adlarında düzenli ses denklikleri: ж ↔ y, к ↔ g, т ↔ d vb."
+    },
+    "history": {
+      "title": "Tarihî bağlam",
+      "description": "Kazak ve Türk yer adlarının ortak katmanının tarihî bağlamı."
+    },
+    "method": {
+      "title": "Yöntem",
+      "description": "Sözlük maddesinin parametreleri, ilişki türlerinin sınıflandırması, doğrulama ölçütleri."
+    },
+    "stats": {
+      "title": "İstatistik",
+      "description": "Derlem istatistikleri: ilişki türleri, nesne türleri, bileşen sıklığı."
+    },
+    "present": {
+      "title": "Sunum modu",
+      "description": "Seçilmiş yer adı çiftleri — sunum modu."
+    },
+    "entry": {
+      "title": "{kz} — {tr} (No. {id})",
+      "description": "No. {id}. {kz} ({kzCountry}) — {tr} ({trCountry}). İlişki türü: {link}."
+    },
+    "notFound": {
+      "title": "Sayfa bulunamadı",
+      "description": ""
+    }
+  }
+}
